@@ -1,5 +1,5 @@
 ---
-title: "Mimmit Kooda"
+title: "Keyboard Junkies + AWS"
 author: "@yvesh"
 date: 12.11.2023
 changelog: init
