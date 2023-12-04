@@ -1,0 +1,460 @@
+<!doctype html>
+<!-- 
+  author: Yves Hwang
+  email: yvesh@amazon.com 
+  date: 02.11.2023
+-->
+<!-- HTML and CSS based on John Polacek, "What the heck is responsive web design?" http://johnpolacek.github.io/WhatTheHeckIsResponsiveWebDesign-impressjs/#/title -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>#keyboardjunkies</title>
+
+    <meta name="description" content="#keyboardjunkies">
+    <meta name="author" content="Yves Hwang" />
+
+    <link href='font.css' rel='stylesheet' type='text/css'>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	  <div class="background"></div>
+    <div id="hint">use the spacebar or arrow keys to navigate</div>
+    <div id="impress" class="impress-not-supported">
+
+    <!-- title -->
+    <div id="title" class="step" data-x="540" data-y="600" data-scale="4.5">
+			<div class="big bold">
+        <div id="responsive" class="step" data-x="75" data-y="40" data-scale="1">
+          <img src="aws-3215369-2673787.webp" width="200"/>
+        </div>
+				<div id="title-text1">&nbsp; &nbsp; &nbsp; #day-of-📦</div>
+				<div id="title-text2">Keyboard Junkies</div>
+			</div>
+		</div>
+    
+    <div id="respond" class="step" data-x="75" data-y="60" data-scale="1">
+			<div class="extralight">
+				<div class="bold">Yves Hwang</div>
+				<div>Senior Solutions Architect</div>
+        <div>AWS</div>
+        <div>yvesh@amazon.com</div>
+        <img src="qr_yveshwang.png"/>
+			</div>
+		</div>
+
+
+    <!-- intro -->
+		<div id="respond" class="step" data-x="2650" data-y="-150" data-scale="1">
+			<div class="big bold">
+				<div id="respond-text1">Community of</div>
+				<div id="respond-text2">builders</div>
+			</div>
+		</div>
+
+		<div id="adaptive-responsive" class="step" data-x="2650" data-y="500" data-scale="1">
+			<div class="big">
+			  <span id="combo-or">AWS is a company that</span>
+				<div id="ar-adaptive">nurtures</div>
+        <div id="ar-adaptive">and supports</div>
+				<div id="ar-adaptive">builder communities</div>
+			</div>
+		</div>
+
+		<div id="combo" class="step" data-x="2650" data-y="1200" data-scale="1">
+			<div class="big">
+				<span id="combo-or">...with unparalleled ownership and impact on our products</span>
+				<div id="combo-text">#core</div>
+			</div>
+			<div id="combo-fluid-fixed">
+				<div id="combo-fluid" class="big">
+					<div class="bold">16 leadership principles</div>
+					<div class="light">Day 1 culture</div>
+          <div class="light">innovation</div>
+          <div class="light">customer centric</div>
+        </div>
+				<div id="combo-plus">+</div>
+				<div id="combo-fixed" class="big">
+					<div class="bold">diversity equity and inclusion</div>
+					<div class="light">climate pledge</div>
+          <div class="light">impact investment</div>
+          <div class="light">mentorship</div>
+				</div>
+			</div>
+		</div>
+
+    <div id="culture" class="step" data-x="2650" data-y="1900" data-scale="1">
+			  <div class="big">
+          <div id="ar-adaptive">Day of Containers 📦</div>
+        </div>
+		</div>
+
+    <div id="culture3" class="step" data-x="2650" data-y="2200" data-scale="1">
+      <div class="big">Learn and be curious</div>
+    </div>
+
+    <div id="culture4" class="step" data-x="2650" data-y="2250" data-scale="1">
+      <div class="big">Think big</div>
+    </div>
+
+    <div id="culture5" class="step" data-x="2650" data-y="2300" data-scale="1">
+      <div class="big">Bias for action</div>
+    </div>
+
+    <div id="agenda" class="step" data-x="2800" data-y="2700" data-scale="1">
+			<div class="big bold" id="agenda1">Agenda</div>
+      <div class="big light" id="agenda2">Welcome & intro</div>
+			<div class="big light" id="agenda3">Multi cluster service discovery and load balancing</div>
+      <div class="big light" id="agenda4">Kubernetes Workshop</div>
+      <div class="big light" id="agenda5">Karpeter</div>
+      <div class="big light" id="agenda6">Keda</div>
+      <div class="big light" id="agenda7">Kubecost</div>
+      <div class="big light" id="agenda8">Lightening talk: what if k8 was wine...🍷</div>
+		</div>
+
+    <div id="agenda_2" class="step" data-x="2800" data-y="3200" data-scale="1">
+			<div class="big bold" id="agenda1">Things to remember</div>
+      <div class="big light" id="agenda2">Lunch at 11:45</div>
+			<div class="big light" id="agenda3">Back at 12:30</div>
+      <div class="big light" id="agenda4">Lightening talk at 15:30</div>
+      <div class="big light" id="agenda5">Networking session at 16:00</div>
+      <div class="big light" id="agenda6">Keep hydrated</div>
+      <div class="big light" id="agenda7">Keep caffenated</div>
+      <div class="big light" id="agenda8">Enjoy the 🍷 tasting!</div>
+      <div class="big light" id="agenda8">Survey at the end!</div>
+		</div>
+<!--
+    <div id="culture1" class="step" data-x="2650" data-y="2000" data-scale="1">
+      <div class="big">Have fun!</div>
+    </div>
+
+    <div id="culture1" class="step" data-x="2650" data-y="2050" data-scale="1">
+      <div class="big">Collaborate & Participate</div>
+    </div>
+
+    <div id="culture2" class="step" data-x="2650" data-y="2100" data-scale="1">
+      <div class="big">Learn and be curious</div>
+    </div>
+
+    <div id="culture3" class="step" data-x="2650" data-y="2150" data-scale="1">
+      <div class="big">Dive deep</div>
+    </div>
+
+    <div id="culture4" class="step" data-x="2650" data-y="2200" data-scale="1">
+      <div class="big">Think big</div>
+    </div>
+
+    <div id="culture5" class="step" data-x="2650" data-y="2250" data-scale="1">
+      <div class="big">Scope down & timebox</div>
+    </div>
+
+    <div id="culture6" class="step" data-x="2650" data-y="2300" data-scale="1">
+      <div class="big">Community & network</div>
+    </div>
+
+    <div id="culture7" class="step" data-x="2650" data-y="2350" data-scale="1">
+      <div class="big">Ownership</div>
+    </div>
+
+    <div id="culture8" class="step" data-x="2650" data-y="2400" data-scale="1">
+      <div class="big">Work hard and be nice</div>
+    </div>
+
+    <div id="culture9" class="step" data-x="2650" data-y="2450" data-scale="1">
+      <div class="big">Feedback</div>
+    </div>
+
+    <div id="culture10" class="step" data-x="2650" data-y="2500" data-scale="1">
+      <div class="big">Have backbone</div>
+    </div>
+
+    <div id="culture10" class="step" data-x="2650" data-y="2550" data-scale="1">
+      <div class="big">Remain your authentic self</div>
+    </div>
+-->
+    <!-- the why -->
+		<div id="why" class="step" data-x="-1700" data-y="1000" data-scale="1">
+			<div class="big bold title">🚀</div>
+		</div>
+
+		<div id="why-quote" class="step" data-x="-1700" data-y="1250" data-scale="1">
+      <blockquote>&ldquo;Now, others would have you think that all clouds are the same, but it's just not true.&rdquo;
+      <span class="author">Adam Selipsky re:invent 2023</span></blockquote>
+		</div>
+
+		<div id="why-pitch1" class="step" data-x="-1700" data-y="1650" data-scale="1">
+			<div class="big light" id="why-sml">news from Las Vegas</div>
+      <div class="big bold" id="why-every">re:invent</div>
+			<div class="big bold" id="why-every">2023</div>
+		</div>
+
+    <div id="why-pitch2" class="step" data-x="-1700" data-y="2200" data-scale="1">
+			<div class="big bold" id="why-every">Amazon Q (preview)</div>
+      <div class="big light" id="why-every">GenAI powered assitant designed for work that is tailored to your business</div>
+			<div class="big light" id="why-sml">Your business</div>
+      <div class="big light" id="why-sml">AWS</div>
+      <div class="big light" id="why-sml">Amazon Quicksight</div>
+      <div class="big light" id="why-sml">Amazon Connect</div>
+      <div class="big light" id="why-sml">Amazon Supplychain</div>
+		</div>
+
+    <div id="why-pitch3" class="step" data-x="-1700" data-y="3000" data-scale="1">
+			<div class="big bold" id="why-every">S3 Express Zone</div>
+      <div class="big light" id="why-every">speediest Amazon S3 storage class, 10x faster, 50% cheaper than standard class</div>
+      <div class="big light" id="why-sml">streaming delivery with single-digit milliseconds performance</div>
+      <div class="big light" id="why-sml">ML training and inference</div>
+    </div>
+
+    <div id="why-pitch4" class="step" data-x="-1700" data-y="3700" data-scale="1">
+			<div class="big bold" id="why-every">Amazon Bedrock features</div>
+      <div class="big light" id="why-sml">Guardrails</div>
+      <div class="big light" id="why-sml">Knowledge Base (RAG)</div>
+      <div class="big light" id="why-sml">Agents for Amazon Bedrock</div>
+      <div class="big light" id="why-sml">Fine-tuning</div>
+    </div>
+
+    <div id="why-2" class="step" data-x="-1700" data-y="4500" data-scale="1">
+      <div class="big">Amazon Aurora Limitless Database: scaling write throughput with shards! 💎</div>
+      <div class="img-wrap img-inline">
+        <img src="2023-aurora-limited-database-architecuture.png"  width="80%" />
+      </div>
+    </div>
+    <div id="why-1" class="step" data-x="-1700" data-y="5000" data-scale="1">
+      <div class="big">Amazon ElastiCache for Redis and Memcache</div>
+    </div>
+    <div id="why0" class="step" data-x="-1700" data-y="5200" data-scale="1">
+      <div class="big">Amazon Redshift Serverless</div>
+    </div>
+    <div id="why1" class="step" data-x="-1700" data-y="5500" data-scale="1">
+      <div class="big bold">AWS Graviton4 and Tranium2 chipset </div>
+      <div class="big light">Graviton4: 30% compute, 50% more cores and 75% more mem</div>
+      <div class="big light">Tranium2: 4x faster training, supports ultra clusters upwards to 100,000 chips, enegery efficiency up 2x</div>
+    </div>
+
+    <div id="why2" class="step" data-x="-1700" data-y="6000" data-scale="1">
+      <div class="big bold">Amazon Sagemaker 🆕 capabilities</div>
+      <div class="big light">HyperPod: accelerate training by 40%</div>
+      <div class="big light">Inference: multiple models on instances, reducing cost and latency</div>
+      <div class="big light">Clarify: evalute, compare, and select FM based on use cases</div>
+      <div class="big light">Canvas: workflows</div>
+    </div>
+
+    <div id="why3" class="step" data-x="-1700" data-y="6500" data-scale="1">
+      <div class="big bold">More Amazon Bedrock capabilities!</div>
+      <div class="light">Claude 2.1 with 200,000 tokens</div>
+      <div class="light">Meta Llama2: trained on 40% more data than Llama1 with doubled context length</div>
+      <div class="light">Amazon Titan Multimodal Embeddings</div>
+      <div class="img-wrap img-inline">
+        <img src="2023-amazon-titan-models.png"  width="80%" />
+      </div>
+    </div>
+
+    <div id="why4" class="step" data-x="-1700" data-y="7500" data-scale="1">
+      <div class="img-wrap img-inline">
+        <img src="bedrock_titan1.png"  width="100%" />
+      </div>
+     </div>
+
+    <div id="why4" class="step" data-x="-1700" data-y="7750" data-scale="1">
+      <div class="img-wrap img-inline">
+        <img src="bedrock_titan2.png"  width="100%" />
+      </div>
+    </div>
+
+    <div id="why4" class="step" data-x="-1700" data-y="8050" data-scale="1">
+      <div class="img-wrap img-inline">
+        <img src="bedrock_titan3.png"  width="100%" />
+      </div>
+    </div>
+
+    <div id="why4" class="step" data-x="-1700" data-y="8550" data-scale="1">
+      <div class="img-wrap img-inline">
+        <img src="bedrock_titan4.png"  width="100%" />
+      </div>
+    </div>
+    <!-- 
+    <div id="why-2" class="step" data-x="-1700" data-y="2000" data-scale="1">
+      <div class="big">Empathise with customers</div>
+    </div>
+    <div id="why-1" class="step" data-x="-1700" data-y="2050" data-scale="1">
+      <div class="big">Satisfy our curiosity</div>
+    </div>
+    <div id="why0" class="step" data-x="-1700" data-y="2100" data-scale="1">
+      <div class="big">Relate & understand tech challenges</div>
+    </div>
+    <div id="why1" class="step" data-x="-1700" data-y="2150" data-scale="1">
+      <div class="big">Builder experiences with AWS</div>
+    </div>
+
+    <div id="why2" class="step" data-x="-1700" data-y="2200" data-scale="1">
+      <div class="big">Relate to business challenges</div>
+    </div>
+
+    <div id="why3" class="step" data-x="-1700" data-y="2250" data-scale="1">
+      <div class="big">Work together</div>
+    </div>
+
+    <div id="why4" class="step" data-x="-1700" data-y="2300" data-scale="1">
+      <div class="big">Invent and wander</div>
+    </div>
+
+    -->
+
+    <!-- challenges -->
+    <div id="challenges" class="step" data-x="-660" data-y="1000" data-scale="1">
+      <div class="big bold title">📦</div>
+    </div>
+    <div id="challenges1" class="step" data-x="-660" data-y="1200" data-scale="1">
+      <div class="big bold" id="how-frameworks-text">EKS</div>
+    </div>
+    <div id="challenges1" class="step" data-x="-660" data-y="2000" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Mountpoint for Amazon S3 CSI</div>
+        <div class="big extralight" id="how-savetime">🥳GA🎉</div>
+        <div class="big light" id="how-rollyourown">access S3 as a volume</div>
+        <div class="big extralight" id="how-control">streaming and ML use cases</div>
+      </div>
+    </div>
+
+    <div id="challenges2" class="step" data-x="-660" data-y="2700" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">AWS Distro for OpenTelemtry</div>
+        <div class="big light" id="how-growth">EKS add-on</div>
+        <div class="big extralight" id="how-community">ADOT collector in EKS cluster</div>
+        <div class="big bold" id="how-networkt">OTLP backends, OpenSearch, Dynatrace, Jaeger, Prometheus, etc</div>
+        <div class="big extralight" id="how-opensource">CloudWatch Log exporter</div>
+        <div class="big extralight" id="how-citation">Filelog receiver</div>
+      </div>
+    </div>
+
+    <div id="challenges3" class="step" data-x="-660" data-y="3400" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Container Insights - EKS</div>
+        <div class="big light" id="how-growth">Amazon CloudWatch</div>
+        <div class="big extralight" id="how-community">Enhanced observability</div>
+        <div class="big bold" id="how-network">pod logs, cluster and node metrics</div>
+        <div class="big extralight" id="how-opensource">EKS Add-on with CloudWatch agent</div>
+      </div>
+    </div>
+
+    <div id="challenges4" class="step" data-x="-660" data-y="4000" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Fully Managed Prometheus collector</div>
+        <div class="big light" id="how-growth">Amazon Managed Service</div>
+        <div class="big extralight" id="how-community">no need to manage Prometheus agents</div>
+        <div class="big bold" id="how-networkt">agentless collector catering undifferentiated lifting</div>
+        <div class="big extralight" id="how-opensource">API, EKS conole, CLI</div>
+      </div>
+    </div>
+
+    <div id="challenges5" class="step" data-x="-660" data-y="4850" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Amazon EKS Pod Identity</div>
+        <div class="big extralight" id="how-growth">simplifies cluster administrator</div>
+        <div class="medium" id="how-community">Add-ons</div>
+        <div class="small extralight" id="how-networkt">Step 1: Create an IAM role & specify pods.eks.amazonaws.com as principal.</div>
+        <div class="small extralight" id="how-opensource">Step 2: Install Amazon EKS Pod Identity Agent add-on.</div>
+        <div class="small extralight" id="how-opensource">Step 3: Map the role to Kubernetes service account.</div>
+      </div>
+    </div>
+
+    <div id="challenges5" class="step" data-x="-660" data-y="5500" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Amazon GuardDuty with EKS </div>
+        <div class="big extralight" id="how-growth">new machine learning capabilities to enhanced threat detection</div>
+        <div class="small extralight" id="how-networkt">Part of GuardDuty EKS Audit Log Monitoring</div>
+        <div class="small extralight" id="how-opensource">Establishes normal behaviour</div>
+        <div class="small extralight" id="how-opensource">Detect abnormal behaviours</div>
+        <div class="small extralight" id="how-opensource">attack tactics: discovery, credential access, privilege escalation and execution</div>
+      </div>
+    </div>
+
+    <!-- the how -->
+    <div id="how" class="step" data-x="420" data-y="1000" data-scale="1">
+			<div class="big bold title">📦</div>
+		</div>
+    <div id="how1" class="step" data-x="420" data-y="1200" data-scale="1">
+      <div class="big bold" id="how-frameworks-text">ECS</div>
+    </div>
+
+    <div id="how2" class="step" data-x="420" data-y="2000" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Amazon GuardDuty ECS Runtime Monitoring</div>
+        <div class="big extralight" id="how-growth">clusters on both Fargate and EC2</div>
+        <div class="small extralight" id="how-networkt">Threat detection with machine learning</div>
+        <div class="small extralight" id="how-opensource">Generates security findings and sends to AWS Security Hub</div>
+        <div class="small extralight" id="how-opensource">... and Amazon EventBridge</div>
+        <div class="small extralight" id="how-opensource"></div>
+      </div>
+    </div>
+
+    <div id="how3" class="step" data-x="420" data-y="2850" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Amazon Detective Supports GuardDuty ECS Runtime Monitoring</div>
+        <div class="small extralight" id="how-opensource">... and Amazon Detective to launch security investigations</div>
+      </div>
+    </div>
+
+    <!-- the who -->
+		<div id="who" class="step" data-x="1520" data-y="1000" data-scale="1">
+			<div class="big bold title">📦</div>
+		</div>
+    <div id="who1" class="step" data-x="1520" data-y="1200" data-scale="1">
+      <div class="big bold" id="how-frameworks-text">ECR</div>
+    </div>
+
+    <div id="who2" class="step" data-x="1520" data-y="2000" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Amazon ECR pull through cache support</div>
+        <div class="big extralight" id="how-growth">upstream supports Dockerhub</div>
+        <div class="small extralight" id="how-networkt">Github container registry</div>
+        <div class="small extralight" id="how-opensource">Azure Container Registry</div>
+        <div class="small extralight" id="how-opensource">credentials in AWS Secrets Manager</div>
+        <div class="small extralight" id="how-opensource">images are kept in sync automatically</div>
+      </div>
+    </div>
+
+    <div id="who3" class="step" data-x="1520" data-y="3000" data-scale="1">
+      <div>
+        <div class="big bold" id="how-frameworks-text">Pull through cache initial configurations (preview)</div>
+        <div class="big extralight" id="how-growth">specify configuration for inital pull through</div>
+        <div class="small extralight" id="how-networkt">encryption settings</div>
+        <div class="small extralight" id="how-opensource">lifecycle policies</div>
+        <div class="small extralight" id="how-opensource">repository permissions</div>
+        <div class="small extralight" id="how-opensource">using repository creation template</div>
+        <div class="small extralight" id="how-opensource">docker pull aws_account_id.dkr.ecr.region.amazonaws.com/ecr-public/repository_name/image_name:tag</div>
+        <div class="small extralight" id="how-opensource">docker pull aws_account_id.dkr.ecr.region.amazonaws.com/docker-hub/library/image_name:tag</div>
+        <div class="small extralight" id="how-opensource">docker pull aws_account_id.dkr.ecr.region.amazonaws.com/quay/repository_name/image_name:tag</div>
+      </div>
+    </div>
+
+    <!-- fun ending and credits-->
+		<div class="step" id="credits" data-x="4000" data-y="0" data-rotate="-90" data-rotate-y="90" data-scale=".1">
+			<div class="big bold">The Frugal Architect</div>
+      <img src="frugalarchitect.png" />
+    </div>
+
+    <div id="credits1" class="step" data-x="4000" data-y="2000">
+      <div>
+        <div class="big bold" id="lawtitle">Simple laws for building cost-aware, sustainable, and modern architectures.</div>
+        <img src="frugallaws.png" />
+      </div>
+    </div>
+
+    <div class="step" id="credits2" data-x="4000" data-y="4000" data-scale=".1">
+      <div class="big bold">Thanks!</div>
+			<p class="first">
+        An <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation<br/>
+        <a href="http://macyves.wordpress.com">@yveshwang</a>04.12.2023
+      </p>
+      <img src="QRCode.png"/>
+      <p>
+        <img src="aws-3215369-2673787.webp" width="250" height="290"/>
+      </p>
+		</div>
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="impress.js"></script>
+</body>
+</html>
